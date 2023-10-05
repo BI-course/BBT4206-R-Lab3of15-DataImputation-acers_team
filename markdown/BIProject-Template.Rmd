@@ -1,0 +1,59 @@
+---
+title: "Business Intelligence Project"
+author: "<Specify your name here>"
+date: "<Specify the date when you submitted the lab>"
+output:
+  github_document: 
+    toc: yes
+    toc_depth: 4
+    fig_width: 6
+    fig_height: 4
+    df_print: default
+editor_options:
+  chunk_output_type: console
+---
+
+# Student Details
+
+|                                              |     |
+|----------------------------------------------|-----|
+| **Student ID Number**                        | ... |
+| **Student Name**                             | ... |
+| **BBIT 4.2 Group**                           | ... |
+| **BI Project Group Name/ID (if applicable)** | ... |
+
+# Setup Chunk
+
+**Note:** the following KnitR options have been set as the global defaults: <BR> `knitr::opts_chunk$set(echo = TRUE, warning = FALSE, eval = TRUE, collapse = FALSE, tidy = TRUE)`.
+
+More KnitR options are documented here <https://bookdown.org/yihui/rmarkdown-cookbook/chunk-options.html> and here <https://yihui.org/knitr/options/>.
+
+```{r setup, include=FALSE}
+library(formatR)
+knitr::opts_chunk$set(
+  warning = FALSE,
+  collapse = FALSE
+)
+```
+
+# Understanding the Dataset (Exploratory Data Analysis (EDA))
+
+## Loading the Dataset
+
+### Source:
+
+The dataset that was used can be downloaded here: *\<provide a link\>*
+
+### Reference:
+
+*\<Cite the dataset here using APA\>\
+Refer to the APA 7th edition manual for rules on how to cite datasets: <https://apastyle.apa.org/style-grammar-guidelines/references/examples/data-set-references>*
+
+```{r Dataset Loader}
+library(readr)
+
+# Provide the executable R code inside the various code chunks as guided by the
+# lab work.
+```
+
+...to be continued
