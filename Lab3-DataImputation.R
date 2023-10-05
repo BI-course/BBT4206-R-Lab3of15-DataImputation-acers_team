@@ -250,6 +250,8 @@ if (!is.element("Amelia", installed.packages()[, 1])) {
                    repos = "https://cloud.r-project.org")
 }
 require("Amelia")
+View(NHANES)
+dim(NHANES)
 
 # STEP 2. Create a subset of the variables/features ----
 # We select only the following 13 features to be included in the dataset:
